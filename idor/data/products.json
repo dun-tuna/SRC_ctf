@@ -1,0 +1,136 @@
+[
+  {
+    "id":1,
+    "name": "iPhone 17",
+    "price": "$1000",
+    "image": "/images/phone.jpeg",
+    "description": "Latest Apple iPhone"
+  },
+  {
+    "id":2,
+    "name": "Gigacat",
+    "price": "$120",
+    "image": "/images/cat.jpg",
+    "description": "Supercat help you save Gotham city"
+  },
+  {
+    "id":3,
+    "name": "Database of FPT University students",
+    "price": "$10000",
+    "image": "/images/database.jpg",
+    "description": "Info of your crush will be here"
+  },
+  {
+    "id":4,
+    "name": "EOS tool",
+    "price": "$100",
+    "image": "/images/eos-tool.png",
+    "description": "Become a Golden toad never be easier"
+  },
+  {
+    "id":5,
+    "name": "Flag",
+    "price": "$999999999999",
+    "image": "/images/flag.png",
+    "description": "If you can see this, you win"
+  },
+  {
+    "id":6,
+    "name": "Malware",
+    "price": "$5000",
+    "image": "/images/malware.jpg",
+    "description": "All malware you need in one package"
+  },
+  {
+    "id":7,
+    "name": "Mixi food",
+    "price": "$5",
+    "image": "/images/mixi-food.jpg",
+    "description": "Tày people's food"
+  },
+  {
+    "id":8,
+    "name": "Study Materials",
+    "price": "$500",
+    "image": "/images/sexy-girl.jpg",
+    "description": "You will love it"
+  },
+  {
+    "id":9,
+    "name": "Become a VIP member of SRC",
+    "price": "$99999999999999",
+    "image": "/images/src_logo.jpg",
+    "description": "Buy this and you will win get 10 points in a test"
+  },
+  {
+    "id":10,
+    "name": "Information of Duong Quoc An",
+    "price": "$25000",
+    "image": "/images/troll.jpg",
+    "description": "Just for fun"
+  },
+  {
+    "id":11,
+    "name": "Tangled Web book",
+    "price": "$7000",
+    "image": "/images/tangled_web_book.jpg",
+    "description": "Classic web security book",
+    "hidden": true
+  },
+  {
+    "id":12,
+    "name": "VPN account",
+    "price": "$50",
+    "image": "/images/vpn.jpg",
+    "description": "Secure your connection",
+    "hidden": true
+  },
+  {
+    "id":13,
+    "name": "Crypto Bot",
+    "price": "$2000",
+    "image": "/images/src_logo.jpg",
+    "description": "Make money while you sleep",
+    "hidden": true
+  },
+  {
+    "id":14,
+    "name": "Zero-day exploit",
+    "price": "$15000",
+    "image": "/images/src_logo.jpg",
+    "description": "Exploit for the latest vulnerabilities",
+    "hidden": true
+  },
+  {
+    "id":15,
+    "name": "OnlyFans Leak",
+    "price": "$100",
+    "image": "/images/onlyfan.jpg",
+    "description": "Did your favorite creator leak content?",
+    "hidden": true
+  },
+  {
+    "id":16,
+    "name": "Anti Vanguard",
+    "price": "$2500",
+    "image": "/images/vanguard.png",
+    "description": "High performance gaming rig",
+    "hidden": true
+  },
+ {
+        "id":99,
+        "name": "Real Flag",
+        "price": "$0",
+        "image": "/images/src_logo.jpg",
+        "description": "Good job! You found the real flag! SRC{1D0R_1s_50_e4sy_4s_1T_53em5#}",
+        "hidden": true
+},
+  {
+    "id":36,
+    "name": "Raumania",
+    "price": "$3.6",
+    "image": "/images/raumania.jpg",
+    "description": "Hah got you 36!!!",
+    "hidden": true
+  }
+]

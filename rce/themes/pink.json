@@ -1,0 +1,5 @@
+{
+    "name": "pink",
+    "background": "#ffc0cb",
+    "css": "body { background:#ffc0cb; color:#000 } .product-card{background:#ff69b4}"
+}

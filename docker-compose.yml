@@ -1,0 +1,47 @@
+version: "3.9"
+
+networks:
+  ctf-internal:
+    driver: bridge
+
+services:
+  idor:
+    build: ./idor
+    container_name: chall-idor
+    ports:
+      - "3001:3000"
+    networks:
+      - ctf-internal
+    restart: unless-stopped
+
+  rce:
+    build: ./rce
+    container_name: chall-rce
+    ports:
+      - "3002:3002"
+    networks:
+      - ctf-internal
+    environment:
+      - FLAG=SRC{C0ngr4tul4t10n5_y0u_4r3_th3_w3b_m45t3r!@!@}
+    restart: unless-stopped
+
+  xss-web:
+    build: ./xss/web
+    container_name: chall-xss-web
+    ports:
+      - "3003:3000"
+    networks:
+      - ctf-internal
+    restart: unless-stopped
+
+  xss-admin-bot:
+    build: ./xss/admin-bot
+    container_name: chall-xss-admin-bot
+    depends_on:
+      - xss-web
+    environment:
+      - TARGET_URL=http://xss-web:3000
+      - ADMIN_COOKIE=admin_session=supersecret
+    networks:
+      - ctf-internal
+    restart: unless-stopped

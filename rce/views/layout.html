@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SRC Shop</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    {{theme.css}}
+  </style>
+</head>
+<body style="background: {{theme.background}}; color: {{theme.text}}">
+  <header class="navbar">
+    <div class="nav-brand">SRC Shop</div>
+    <nav class="nav-links">
+      <a href="/">Home</a>
+      <a href="/profile">Profile</a>
+      <a href="/theme">Theme</a>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+      <a href="/logout">Logout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{content}}
+  </main>
+</body>
+</html>

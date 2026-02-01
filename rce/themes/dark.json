@@ -1,0 +1,4 @@
+{
+  "name": "dark",
+  "css": "body { background:#111; color:#eee } .product-card{background:#1e1e1e}"
+}

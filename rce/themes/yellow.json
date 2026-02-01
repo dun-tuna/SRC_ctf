@@ -1,0 +1,5 @@
+{
+    "name":"yellow",
+    "background": "#ffffe0",
+    "css": "body { background:#ffffe0; color:#000 } .product-card{background:#ffeb3b}"
+}

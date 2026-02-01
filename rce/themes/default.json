@@ -1,0 +1,5 @@
+{
+  "name": "Default Theme",
+  "version": "1.0",
+  "hook": "console.log('Default theme loaded')"
+}

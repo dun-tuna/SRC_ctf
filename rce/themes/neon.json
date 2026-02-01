@@ -1,0 +1,5 @@
+{
+  "name": "neon",
+  "background": "#000",
+  "css": "body { background:#000; color:#fff } .product-card{background:#ff00ff}"
+}

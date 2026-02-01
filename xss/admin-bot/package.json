@@ -1,0 +1,17 @@
+{
+  "name": "admin-bot",
+  "version": "1.0.0",
+  "description": "Admin bot for XSS challenge",
+  "main": "admin-bot.js",
+  "scripts": {
+    "start": "node admin-bot.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

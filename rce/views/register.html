@@ -1,0 +1,66 @@
+<div class="login-container">
+  <div class="login-card">
+    <div class="login-header">
+      <h2>Register</h2>
+    </div>
+
+    {{error_block}}
+
+<form class="login-form" method="POST" action="/register" novalidate>
+  <div class="form-group">
+      <label for="username">Username</label>
+    <div class="input-wrapper">
+      <input
+        type="text"
+        id="username"
+        name="username"
+        required
+        autocomplete="username"
+      >
+
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="input-wrapper password-wrapper">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        autocomplete="current-password"
+      >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="input-wrapper">
+      <label for="address">Shipping Address</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        required
+        autocomplete="address"
+      >
+    </div>
+    
+<div class="form-group">
+  <div class="input-wrapper">
+        <label for="phone">Phone Number</label>
+    <input
+      type="text"
+      id="phone"
+      name="phone"
+      required
+      autocomplete="tel"
+    >
+  </div>
+</div>
+
+  </div>
+  <button type="submit" class="register-btn">
+    Register
+  </button>
+</form>

@@ -1,0 +1,18 @@
+<h3> Theme Select</h3>
+
+<p>You can customize how the shop looks by selecting a theme.</p>
+
+<form action="/theme/apply" method="get">
+  <select name="theme">
+    {{theme_options}}
+  </select>
+  <button type="submit">Apply</button>
+</form>
+
+<hr>
+
+<h3>Upload Custom Theme</h3>
+<form action="/theme/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="themeZip">
+  <button type="submit">Upload Theme</button>
+</form>
