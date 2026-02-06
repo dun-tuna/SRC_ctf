@@ -10,4 +10,4 @@ Source code for all challenge web
 
 
 
-Who complete all challenge write an write up and send to me(first person will took my lì xì)
+Whoever completes all the challenges, write a write-up and send it to me. The first person will receive my lì xì
